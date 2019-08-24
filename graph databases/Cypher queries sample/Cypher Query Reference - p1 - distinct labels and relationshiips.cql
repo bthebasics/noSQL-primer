@@ -25,6 +25,7 @@ ORDER BY label
 
 call db.labels();
 
+
 /* https://neo4j.com/developer/kb/viewing-schema-data-with-apoc/ */
 
 CALL apoc.meta.schema() YIELD value as schemaMap
@@ -52,12 +53,15 @@ MATCH (n)-[r]->()
 RETURN distinct type(r)
 
 
-match n-[r]-()
+match (n)-[r]-()
 return distinct labels(n), type(r)
 
+// delete all the nodes and relationships 
 
+MATCH (n)
+DETACH DELETE n
 
 https://www.remwebdevelopment.com/blog/sql/some-basic-and-useful-cypher-queries-for-neo4j-201.html
 https://neo4j.com/developer/guide-sql-to-cypher/
 
-** Data model https://dzone.com/refcardz/from-relational-to-graph-a-developers-guide?chapter=1
+** Data model https://dzone.com/refcardz/from-relational-to-graph-a-developers-guide?chapter=10

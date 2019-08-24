@@ -1,0 +1,1 @@
+https://github.com/neo4j-contrib/gists/blob/master/other/BankFraudDetection.adoc#entity_link_analysis

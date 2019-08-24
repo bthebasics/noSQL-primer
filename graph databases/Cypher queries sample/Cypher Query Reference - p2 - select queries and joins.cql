@@ -1,3 +1,11 @@
+-- options for neo browser : 
+:clear
+:help
+:help create / merge / match etc.
+    https://neo4j.com/developer/guide-cypher-basics/#CREATE
+
+
+
 
 -- join and specific user 
 MATCH (p:Person { name:"Tom Hanks" })-[r:ACTED_IN]->(m:Movie)
@@ -19,3 +27,6 @@ RETURN m
 
 -- Match intersection
 -- https://community.neo4j.com/t/performing-match-intersection/309
+
+
+
