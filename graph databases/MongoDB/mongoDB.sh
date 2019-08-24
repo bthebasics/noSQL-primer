@@ -5,3 +5,5 @@ MongoDB Enterprise > db.chicago_crime.count()
 53475
 
 MongoDB Enterprise > db.chicago_crime.find()
+
+MongoDB Enterprise > db.chicago_crime.find({"Gender":"Male"})
