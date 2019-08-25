@@ -1,0 +1,150 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "_id",
+    "Row ID",
+    "Order ID",
+    "Order Date",
+    "Customer ID",
+    "Segment",
+    "City",
+    "State",
+    "Region",
+    "Product ID",
+    "Category",
+    "Sub-Category",
+    "Sales",
+    "Quantity",
+    "Discount",
+    "Profit"
+  ],
+  "properties": {
+    "_id": {
+      "$id": "#/properties/_id",
+      "type": "string",
+      "title": "The _id Schema",
+      "default": "",
+      "examples": ["5d61576150a05a5ded689a24"],
+      "pattern": "^(.*)$"
+    },
+    "Row ID": {
+      "$id": "#/properties/Row ID",
+      "type": "integer",
+      "title": "The Row id Schema",
+      "default": 0,
+      "examples": [1219]
+    },
+    "Order ID": {
+      "$id": "#/properties/Order ID",
+      "type": "string",
+      "title": "The Order id Schema",
+      "default": "",
+      "examples": ["CA-2017-163629"],
+      "pattern": "^(.*)$"
+    },
+    "Order Date": {
+      "$id": "#/properties/Order Date",
+      "type": "string",
+      "title": "The Order date Schema",
+      "default": "",
+      "examples": ["11/17/2017"],
+      "pattern": "^(.*)$"
+    },
+    "Customer ID": {
+      "$id": "#/properties/Customer ID",
+      "type": "string",
+      "title": "The Customer id Schema",
+      "default": "",
+      "examples": ["RA-19885"],
+      "pattern": "^(.*)$"
+    },
+    "Segment": {
+      "$id": "#/properties/Segment",
+      "type": "string",
+      "title": "The Segment Schema",
+      "default": "",
+      "examples": ["Corporate"],
+      "pattern": "^(.*)$"
+    },
+    "City": {
+      "$id": "#/properties/City",
+      "type": "string",
+      "title": "The City Schema",
+      "default": "",
+      "examples": ["Athens"],
+      "pattern": "^(.*)$"
+    },
+    "State": {
+      "$id": "#/properties/State",
+      "type": "string",
+      "title": "The State Schema",
+      "default": "",
+      "examples": ["Georgia"],
+      "pattern": "^(.*)$"
+    },
+    "Region": {
+      "$id": "#/properties/Region",
+      "type": "string",
+      "title": "The Region Schema",
+      "default": "",
+      "examples": ["South"],
+      "pattern": "^(.*)$"
+    },
+    "Product ID": {
+      "$id": "#/properties/Product ID",
+      "type": "string",
+      "title": "The Product id Schema",
+      "default": "",
+      "examples": ["TEC-PH-10004006"],
+      "pattern": "^(.*)$"
+    },
+    "Category": {
+      "$id": "#/properties/Category",
+      "type": "string",
+      "title": "The Category Schema",
+      "default": "",
+      "examples": ["Technology"],
+      "pattern": "^(.*)$"
+    },
+    "Sub-Category": {
+      "$id": "#/properties/Sub-Category",
+      "type": "string",
+      "title": "The Sub-category Schema",
+      "default": "",
+      "examples": ["Phones"],
+      "pattern": "^(.*)$"
+    },
+    "Sales": {
+      "$id": "#/properties/Sales",
+      "type": "number",
+      "title": "The Sales Schema",
+      "default": 0.0,
+      "examples": [206.1]
+    },
+    "Quantity": {
+      "$id": "#/properties/Quantity",
+      "type": "integer",
+      "title": "The Quantity Schema",
+      "default": 0,
+      "examples": [5]
+    },
+    "Discount": {
+      "$id": "#/properties/Discount",
+      "type": "integer",
+      "title": "The Discount Schema",
+      "default": 0,
+      "examples": [0]
+    },
+    "Profit": {
+      "$id": "#/properties/Profit",
+      "type": "number",
+      "title": "The Profit Schema",
+      "default": 0.0,
+      "examples": [55.647]
+    }
+  }
+}

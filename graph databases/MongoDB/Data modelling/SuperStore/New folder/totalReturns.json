@@ -1,0 +1,44 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "_id",
+    "Returned",
+    "Order_ID"
+  ],
+  "properties": {
+    "_id": {
+      "$id": "#/properties/_id",
+      "type": "string",
+      "title": "The _id Schema",
+      "default": "",
+      "examples": [
+        "5d61579350a05a5ded689bac"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "Returned": {
+      "$id": "#/properties/Returned",
+      "type": "string",
+      "title": "The Returned Schema",
+      "default": "",
+      "examples": [
+        "Yes"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "Order_ID": {
+      "$id": "#/properties/Order_ID",
+      "type": "string",
+      "title": "The Order_id Schema",
+      "default": "",
+      "examples": [
+        "CA-2015-149636"
+      ],
+      "pattern": "^(.*)$"
+    }
+  }
+}

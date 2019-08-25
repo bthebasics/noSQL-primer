@@ -1,0 +1,34 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": ["_id", "Person", "Region"],
+  "properties": {
+    "_id": {
+      "$id": "#/properties/_id",
+      "type": "string",
+      "title": "The _id Schema",
+      "default": "",
+      "examples": ["5d61577a50a05a5ded689a56"],
+      "pattern": "^(.*)$"
+    },
+    "Person": {
+      "$id": "#/properties/Person",
+      "type": "string",
+      "title": "The Person Schema",
+      "default": "",
+      "examples": ["Cassandra Brandow"],
+      "pattern": "^(.*)$"
+    },
+    "Region": {
+      "$id": "#/properties/Region",
+      "type": "string",
+      "title": "The Region Schema",
+      "default": "",
+      "examples": ["South"],
+      "pattern": "^(.*)$"
+    }
+  }
+}

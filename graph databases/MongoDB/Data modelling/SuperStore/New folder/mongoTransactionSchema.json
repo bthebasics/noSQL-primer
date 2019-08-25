@@ -1,0 +1,20 @@
+{
+  "_id": ObjectId("5d61576150a05a5ded689a24"),
+  "Row ID": 1219,
+  "Order ID": "CA-2017-163629",
+  "Order Date": "11/17/2017",
+  "Customer ID": "RA-19885",
+  "Segment": "Corporate",
+  "City": "Athens",
+  "State": "Georgia",
+  "Region": "South",
+  "Product ID": "TEC-PH-10004006",
+  "Category": "Technology",
+  "Sub-Category": "Phones",
+  "Sales": 206.1,
+  "Quantity": 5,
+  "Discount": 0,
+  "Profit": 55.647,
+  "manager": "Manager Name", /* Add the fields for manager and return indicator */
+  "returns": true
+}
