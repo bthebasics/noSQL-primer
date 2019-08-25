@@ -1,0 +1,16 @@
+{
+  "_id": ObjectId("5d61576150a05a5ded689a24"),
+  "movid_id": 101,
+  "movie_name": "Titanic",
+  "Genre": ["Thriller", "Romance"],
+  "Budget": "$100,000,000"
+},
+{
+    "_id": ObjectId("5d61576150a05a5ded689a1f"),
+    "movid_id": 102,
+    "movie_name": "Silence of the lambs",
+    "Genre": ["Thriller", "Horror","Adventure"],
+    "Budget": "$2,531,000"
+}
+  
+  

@@ -1,0 +1,32 @@
+({
+  "_id": ObjectId("5d61576150a05a5ded689a24"),
+  "actor_id": "701",
+  "movie_id": "101",
+  "actor_name": "Leonardo DiCaprio",
+  "alias": "Jack",
+  "role": "hero"
+},
+{
+  "_id": ObjectId("5d61576150a05a5ded689a24"),
+  "actor_id": "708",
+  "movie_id": "101",
+  "actor_name": "Kate Winslet",
+  "alias": "Rose",
+  "role": "heroine"
+},
+{
+  "_id": ObjectId("5d61576150a05a5ded689a24"),
+  "actor_id": "701",
+  "movie_id": "101",
+  "actor_name": "Leonardo DiCaprio",
+  "alias": "Jack",
+  "role": "hero"
+},
+{
+    "_id": ObjectId("5d61576150a05a5ded689a24"),
+    "actor_id": "701",
+    "movie_id": "101",
+    "actor_name": "Leonardo DiCaprio",
+    "alias": "Jack",
+    "role": "hero"
+  }
