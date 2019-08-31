@@ -1,16 +1,45 @@
 {
-  "_id": ObjectId("5d61576150a05a5ded689a24"),
+  "_id": "5d61576150a05a5ded689a24",
   "movid_id": 101,
   "movie_name": "Titanic",
   "Genre": ["Thriller", "Romance"],
-  "Budget": "$100,000,000"
-},
-{
-    "_id": ObjectId("5d61576150a05a5ded689a1f"),
-    "movid_id": 102,
-    "movie_name": "Silence of the lambs",
-    "Genre": ["Thriller", "Horror","Adventure"],
-    "Budget": "$2,531,000"
+  "Budget": "$100,000,000",
+  "releases": [
+      {
+        "location" :"USA",
+        "Date" : "2000-06-01"
+      },   
+      {
+        "location" : "Mexico",
+        "Date" : "2000-06-05"
+      },  
+      {
+        "location": "India",
+        "Date" : "2000-07-12"
+      }          
+      ],
+    "Cast" :
+    [{
+      "actor_id":"1",
+      "actor_name":"Leonardo DiCaprio",
+      "alias": "Jack"
+    },
+    {
+      "actor_id":"1",
+      "actor_name":"Kate Winslet",
+      "alias": "Rose"
+    }
+    ],
+    "viewers_cnt": 2015300
 }
+
+// ,
+// {
+//     "_id": "5d61576150a05a5ded689a1f",
+//     "movid_id": 102,
+//     "movie_name": "Silence of the lambs",
+//     "Genre": ["Thriller", "Horror","Adventure"],
+//     "Budget": "$2,531,000"
+// }
   
   
