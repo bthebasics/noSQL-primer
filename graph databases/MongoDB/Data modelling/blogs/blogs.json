@@ -1,0 +1,44 @@
+// blog entree
+{
+  "_id": "5d61576150a05a5ded689a24",
+  "blog_id" : "123",
+  "blog_title": "new trends in big data",
+  "blog_date": "2019-05-01 19:47",
+  "blog_author": "Daniel Davidson",
+  "author_email": "davidson.daniel@crystalinc.com",
+  "content" : "lorem ipsum .....",
+  "comments" : [
+    {
+      "reader_name": "raj tiwari",
+      "reader_email":"raj.tiwari@gmail.com",
+      "comment": "great content with intelligent presentation .. "
+    },
+    {
+      "reader_name": "sheetal sharma",
+      "reader_email":"sheetal.1987i@gmail.com",
+      "comment": "Good way to present concepts in ... "
+    }
+  ],
+  "tags": ["big data","nosql","mongoDb"]
+}
+
+/* blog entree */
+{
+    "_id" : "5d61576150a05a5ded689a22",
+    "user_id" : "user_id123",
+    "user" : {
+        "first_name" :  "Amit",
+        "last_name" : " Patil"
+       },
+    "email_id"   : "amit.patil@gmail.com",
+    "address " : {
+        "address_line_1" : "4240 dearlake ln",
+        "address_line_2" : "Apt 20",
+        "city" : "Richmond",
+        "state" : "VA",
+        "postal" : "24205"
+    }
+}
+    
+
+}
