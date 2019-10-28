@@ -144,6 +144,21 @@ db.SalesTransactions.aggregate(
     {
         '$addFields': {
             'newfield': {
+                $cond: { if: '$complaints', then: true, else: false}
+            },
+            'isProfitable': {
+                $cond: { if: { '$gte': [ "$Profit", 10 ] },
+                         then:"Yes",
+                         else: "No"
+            }        }
+    }
+)
+
+
+db.SalesTransactions.aggregate(
+    {
+        '$addFields': {
+            'newfield': {
                 $cond: { if: '$Category', then: true, else: false}
             },
             complaints : '$Category'

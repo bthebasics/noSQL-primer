@@ -28,5 +28,18 @@ RETURN m
 -- Match intersection
 -- https://community.neo4j.com/t/performing-match-intersection/309
 
+== DROP DATABASE
+
+It is weird that some properties are left behind. If you are looking for deleting all nodes and relationships along with their properties:
 
 
+MATCH (n)
+OPTIONAL MATCH (n)-[r]-()
+DELETE n,r
+
+If you would like to wipe the entire database and start from scratch:
+
+Shutdown the server.
+delete the configured directory rm -rf data/graph.db.
+Start up the server again.
+shareimprove this answer
