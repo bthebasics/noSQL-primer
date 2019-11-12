@@ -23,8 +23,7 @@ db.getCollection("yelpDataset").find({ "attributes": null }, { name: 1, address:
 db.getCollection("yelpDataset").find({ "attributes": null }, { _id: 0 }).limit(5) // select only few dox
 db.getCollection("yelpDataset").find({ "postal_code": "85016" }).prettyPrint()
 // regex explain plan
-db.getCollection("yelpDataset").find({ "city": { $regex: "nix" } }).explain()
-db.getCollection("yelpDataset").find(
+.db.getCollection("yelpDataset").find(
     { "postal_code": "85016", 
     "review_count": { "$gte": 7, "$lt": 12 } }
     )
